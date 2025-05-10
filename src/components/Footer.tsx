@@ -11,22 +11,12 @@ const Footer = () => {
             <span className="font-serif text-xl font-bold">Mother's Day</span>
           </div>
           
-          <p className="text-mother-100 text-center max-w-md mb-8">
-            A tribute to the women who shape our lives with unwavering love and endless support.
-          </p>
-          
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a 
               href="#" 
               className="text-mother-200 hover:text-mother-500 transition-colors"
             >
-              About
-            </a>
-            <a 
-              href="#card-creator" 
-              className="text-mother-200 hover:text-mother-500 transition-colors"
-            >
-              Create Card
+              Home
             </a>
             <a 
               href="#timeline" 
@@ -56,7 +46,6 @@ const Footer = () => {
           
           <div className="text-mother-300 text-sm">
             <p>© {new Date().getFullYear()} Mother's Day Tribute. All rights reserved.</p>
-            <p className="mt-1">Made with <Heart className="inline h-3 w-3 fill-mother-500 text-mother-500" /> for all the amazing moms.</p>
           </div>
         </div>
       </div>
