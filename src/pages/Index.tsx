@@ -2,6 +2,7 @@
 import Hero from "@/components/Hero";
 import Timeline from "@/components/Timeline";
 import SurpriseButton from "@/components/SurpriseButton";
+import PoemGenerator from "@/components/PoemGenerator";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -9,6 +10,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Hero />
       <Timeline />
+      <PoemGenerator />
       <SurpriseButton />
       <Footer />
     </div>
